@@ -1,7 +1,5 @@
-# PE02: Favoriete spel
+# One of my favorite games
 
-De opgave van deze tweede PE vind je hier: [opgave.pdf](opgave/opgave.pdf).
+The assignment from school out: [opgave.pdf](opgave/opgave.pdf).
 
-Dien in door je site te pushen naar deze GitHub repo (op de master branch) voor de gestelde deadline.
-
-## Veel succes!
+##
