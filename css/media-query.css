@@ -1,0 +1,92 @@
+@media screen and (max-width: 400px) {
+  .big {
+    display: none;
+  }
+
+  .small {
+    display: block;
+  }
+}
+
+.cards__item{
+    @media(min-width: 40rem) {
+        width: 50%;
+      }
+    
+      @media(min-width: 56rem) {
+        width: 33.3333%;
+      }
+}
+@media(min-width: 40rem) {
+    .card__image::before {
+      padding-top: 66.6%;
+      /*3:2 aspect ratio*/
+    }
+  }
+  
+  @media screen and (max-width: 1350px) {
+    .cards>.cards__item {
+      flex: 25%;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+  }
+  @media screen and (max-width: 1350px) {
+    .arrow {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .consoleBtn {
+      flex: 55%;
+    }
+    .characterImage {
+      background-position: center;
+    }
+    
+    #artemis {
+      width: 0;
+    }
+  
+    .characterContent {
+      margin-right: 0;
+    }
+    
+    .rateSection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10%;
+      flex-direction: column;
+    }
+    .ratingSiteLink{
+      margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .wrapper>div {
+      flex: 45%;
+    }
+    .cubeRating{
+      width: fit-content;
+      height: fit-content;
+      padding: 15px;
+    }
+    .rateSection>div{
+      width: 80%;
+    }
+    .ratingSiteLink{
+      width: 40%;
+    }
+    span{
+      font-size: 16px;
+
+    }
+    .ratingContent{
+      align-items: center;
+    }
+  }

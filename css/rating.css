@@ -1,0 +1,50 @@
+.ratingSiteLink{
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
+}
+img{
+    width: 100%;
+}
+.cubeRating{
+    background-color: green;
+    width: 50px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+span{
+    font-size: 42px;
+}
+body{
+    background-image: url(../images/ratingBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    padding-top: 15vh;
+    background-color: #0009;
+    box-shadow: 0 0 50px 0 black;
+}
+h3{
+    color: var(--highlight);
+}
+section{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+section>div{
+    width: 30%;
+}
+.ratingContent{
+    display: flex;
+    margin-bottom: 5%
+}
+.explanation{
+    font-size: 10px;
+
+}

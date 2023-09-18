@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+
+  <link rel="stylesheet" href="css/mainstyle.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/media-query.css">
+  <script src="https://kit.fontawesome.com/79a99dfc05.js" crossorigin="anonymous"></script>
+
+  <title>Favoriet spel</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        <img src="images/logo-nms.png" class="big" alt="No Man's sky logo">
+        <img src="images/logo-small.png" class="small" alt="small logo no man's sky">
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" id="active" class="nav-link" data-item="home">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/characters.html" class="nav-link inactive" data-item="characters">characters</a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/rating.html" class="nav-link inactive" data-item="rating">rating</a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/order.html" class="nav-link inactive" data-item="order">order</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="arrow" id="a1">
+    </div>
+    <div class="arrow" id="a2">
+    </div>
+
+    <video autoplay loop muted src="video/trailer.mp4"></video>
+    <section class="intro">
+      <h1>The story behind No man's Sky</h1>
+      <p id="moreOption">A computer called the Atlas was created thousands of years ago by a scientist on Earth.
+        The world was ending, so mankind needed to leave Earth and head for the stars.
+        Atlas was created to simulate man's departure from Earth and man's eventual colonization of the Milky Way
+        Galaxy.
+        Before departing, Atlas asks its creator for a scan of his mind.</p>
+
+      <p id="showMore" class="showMore">The creator grants this last request and then leaves Earth with the rest of
+        humanity.
+        Atlas continues running simulations for thousands of years, but the mechanics and electronic components of the
+        Atlas itself are starting to fail.
+        Atlas sees its imminent death.
+        Alone and afraid, Atlas attempts to simulate its creator (whose mind it had previously been able to scan) in
+        hopes of finding a way to avoid being shut down,
+        and, if that can't be avoided, to have someone to talk to before death.
+        Although the game leads you to think the Atlas is the creator, you learn that the travelers are in fact the
+        creator - or to put it more accurately - copies of the creator's mind.
+        You, the player, are the last traveler.
+        You are the singularity of the real creator's mind.
+        You are living in a simulated universe Atlas has created for the sole purpose of Atlas being able to witness its
+        own impending death.
+      </p>
+      <a id="readMore" class="readMore">Show More...</a>
+    </section>
+
+    <section class="wrapper">
+      <div>
+        <h2 class="titleCenter">Now available on</h2>
+        <div class="columnWrap">
+
+          <a class="consoleBtn" href="pages/order.html">PS4</a>
+          <a class="consoleBtn" href="pages/order.html">PS5</a>
+          <a class="consoleBtn" href="pages/order.html">Steam</a>
+          <a class="consoleBtn" href="pages/order.html">Xbox one</a>
+          <a class="consoleBtn" href="pages/order.html">game pass</a>
+        </div>
+
+      </div>
+      <div class="priceDiv">
+        <h2 class="titleCenter">Price</h2>
+
+        <strong class="titleCenter price">&euro;49,99</strong>
+
+      </div>
+      <div>
+        <h2 class="titleCenter">PEGI information</h2>
+        <div class="titleCenter pegiDiv">
+          <img class="pegi" src="images/PEGI_7.png" alt="">
+          <img class="pegi" src="images/violence-black-EN.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>&copy;2022-2023 Kevin Dworschak</small>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

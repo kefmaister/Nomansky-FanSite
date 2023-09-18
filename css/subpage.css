@@ -1,0 +1,37 @@
+.navbar {
+  position: inherit;
+}
+
+main {
+  background-image: url(../images/black-background-with-orange-hexagonal-pattern/19746.jpg);
+  background-size: cover;
+}
+
+.characterContentMore {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+  width: 60%;
+}
+
+.characterContent {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 5rem;
+  width: 60%;
+}
+
+
+blockquote{
+  color: var(--ptags);
+  font-style: italic;
+}

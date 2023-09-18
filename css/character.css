@@ -1,0 +1,195 @@
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid var(--base);
+  /*border-radius: 1rem;*/
+  color: var(--highlight);
+  padding: 0.5rem;
+  text-transform: lowercase;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 6rem 0 0 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  width: 23%;
+  flex: 15%;
+
+
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+
+  aspect-ratio: 1;
+  opacity: 0.3;
+  outline-offset: calc(100%/-2);
+  transition: 0.3s;
+}
+.card:hover{
+  outline: 8px solid var(--highlight);
+  outline-offset: 14px;
+  opacity: 1;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.artemis {
+  background-image: url(../images/artemis.png);
+}
+
+.apollo {
+  background-image: url(../images/apollo.png);
+}
+
+.null {
+  background-image: url(../images/null.webp);
+}
+
+.nada {
+  background-image: url(../images/nada.webp);
+}
+
+.polo {
+  background-image: url(../images/polo.webp);
+}
+
+.card__image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+  /*16:9 aspect ratio*/
+}
+
+.card__title {
+  color: var(--highlight);
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  display: none;
+}
+
+#active {
+  transition: none;
+}
+
+
+
+/* .CharacterShow{
+  background-image: url(../images/black-background-with-orange-hexagonal-pattern/19746.jpg);
+  background-position: center;
+  background-size: cover;
+} */
+
+/* .card:hover{
+  animation: pulsBorder 1s linear infinite;
+
+}
+.temp{
+  display: none;
+} */
+.cardsCharacter {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.cardCharacter {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+}
+
+.characterImage {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.characterImage::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+#artemis {
+  width: 50%;
+}
+
+.characterTitle {
+  color: var(--highlight);
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.characterText {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
